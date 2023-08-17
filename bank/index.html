@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>বাপ-দাদার ব্যাংক </title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <h1 class="text-5xl text-center mt-20">বাপ-দাদার ব্যাংক </h1>
+       </header>
+ 
+       <main>
+        <section class="mt-20">
+            <div class="grid lg:grid-cols-3 gap-20 w-9/12 mx-auto ">
+                <div class="bg-green-500 text-2xl text-white  rounded-md p-10">
+                    <h3 class="mb-2">Deposite</h3>
+                    <p>$ <span id="btn-depositetotal">00</span></p>
+                </div>
+
+                <div class="bg-indigo-500  text-2xl text-white   rounded-md p-10">
+                    <h3 class="mb-2">Withdraw</h3>
+                    <p>$ <span id="withdrawtotal">00</span></p>
+                </div>
+
+                <div class="bg-blue-500 text-2xl text-white   rounded-md p-10">
+                    <h3 class="mb-2">Balance</h3>
+                    <p>$ <span id="Balance-total">1000</span></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-20">
+            <div class="grid lg:grid-cols-2 gap-10 mb-10 lg:w-9/12 lg:p-0 p-5 mx-auto">
+                <div class="bg-yellow-500  text-white rounded-md p-10">
+                    <h3 class="mb-5 text-2xl text-white ">Please Deposite</h3>
+                   <div class="lg:px-20">
+                    <input id="input-deposite-field" class="p-2 px-4 rounded-lg mt-10 mb-5 text-black" type="text" placeholder="your amount">
+                    <br>
+                    <button id="btn-deposite" class="bg-cyan-500 hover:bg-cyan-600 border-none rounded-lg mb-5 p-3 text-white">Deposite</button>
+                   </div>
+                </div>
+
+                <div class="bg-rose-500  text-white rounded-md p-10 ">
+                    <h3 class="mb-5 text-2xl text-white ">Please Deposite</h3>
+                   <div class="lg:px-20 ">
+                    <input id="input-withdraw-field" class="p-2 px-4 rounded-lg mb-5 mt-10 text-black" type="text" placeholder="your amount" >
+                    <br>
+                    <button id="btn-withdraw" class="bg-cyan-500 hover:bg-cyan-600 border-none rounded-lg mb-5 p-3 text-white">Deposite</button>
+                   </div>
+                </div>
+            </div>
+        </section>
+       </main>
+    <script src="jss.js"></script>
+       <script src="js.js"></script>
+</body>
+</html>

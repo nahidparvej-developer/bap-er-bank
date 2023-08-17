@@ -8,7 +8,7 @@ document.getElementById('btn-submit').addEventListener('click', function(){
     
 
     if( email==='nahid@gmail.com' && password==='nahidbro'){
-        window.location.href = 'bank/index.html'
+        window.location.href = 'bank'
     }
     else{
         alert('invalid user')
